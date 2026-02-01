@@ -2,7 +2,7 @@
 <html lang="ka">
 <head>
     <meta charset="UTF-8">
-    <title>PurpleSocial - Messages Added</title>
+    <title>purple</title>
     <link rel="stylesheet" href="test.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -80,7 +80,7 @@ body, html {
 
 #page-switcher, #form-toggler { display: none; }
 
-/* რეგისტრაციის ლოგიკა */
+
 .signup-box { display: none; }
 #form-toggler:checked ~ .auth-wrapper .login-box { display: none; }
 #form-toggler:checked ~ .auth-wrapper .signup-box { display: block; }
@@ -123,11 +123,11 @@ input {
     transition: 0.2s;
 }
 
-.purple-btn:active { transform: scale(0.94); } /* დაჭერის ეფექტი */
+.purple-btn:active { transform: scale(0.94); } 
 
 .toggle-link { color: var(--purple-hover); cursor: pointer; text-decoration: underline; }
 
-/* პროფილი და საიდბარი */
+
 .app-screen {
     position: fixed;
     top: 0; left: 0; width: 100%; height: 100%;
@@ -157,7 +157,7 @@ input {
     transition: 0.3s ease;
 }
 
-/* ანიმაცია აიქონებზე */
+
 .nav-icon:hover {
     color: var(--purple-hover);
     transform: scale(1.2);
