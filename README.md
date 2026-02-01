@@ -1,4 +1,3 @@
-# test.html
 !DOCTYPE html>
 <html lang="ka">
 <head>
